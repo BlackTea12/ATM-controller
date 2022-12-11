@@ -34,7 +34,7 @@ void Bank::Withdraw()
 	{
 		if (money > accounts[user_sel]) {
 			cout << "Unable to withdraw. (Balance of your account: " << accounts[user_sel] << ")\n";
-			cout << "Enter amounts to be withdrawed: ";
+			cout << "Enter amounts to withdraw: ";
 			cin >> money;
 		}
 		else {
